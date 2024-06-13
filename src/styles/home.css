@@ -7,3 +7,9 @@
     rgba(31, 41, 55, 1) 100%
   );
 }
+
+.tooltip-item {
+  border: none;
+  outline: none;
+  cursor: pointer;
+}

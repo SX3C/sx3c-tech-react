@@ -1,5 +1,4 @@
-import React, { useEffect } from "react";
-import AOS from "aos";
+import React from "react";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import ExecutiveSingle from "../components/ExecutiveSingle";
@@ -20,6 +19,7 @@ export default function Houses() {
           <div className="relative">
             <img
               className="w-[50%] rounded-full mb-10 absolute top-[25%] left-0 z-10"
+              alt="house illustration"
               src="/houses/game-development.png"
             />
             <ExecutiveSingle
@@ -34,6 +34,7 @@ export default function Houses() {
           <div className="relative">
             <img
               className="w-[50%] rounded-full mb-10 absolute top-[25%] left-0 z-10"
+              alt="house illustration"
               src="/houses/data-sci.png"
             />
             <ExecutiveSingle
@@ -48,6 +49,7 @@ export default function Houses() {
           <div className="relative">
             <img
               className="w-[50%] rounded-full mb-10 absolute top-[25%] left-0 z-10"
+              alt="house illustration"
               src="/houses/video-editing.png"
             />
             <ExecutiveSingle
@@ -62,6 +64,7 @@ export default function Houses() {
           <div className="relative">
             <img
               className="w-[50%] rounded-full mb-10 absolute top-[25%] left-0 z-10"
+              alt="house illustration"
               src="/houses/web-dev.png"
             />
             <ExecutiveSingle

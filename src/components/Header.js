@@ -1,5 +1,4 @@
 import React from "react";
-import Executives from "./executives";
 import { Link } from "react-router-dom";
 
 export default function Header() {
@@ -23,12 +22,20 @@ export default function Header() {
             A Club Dedicated to Learning, Innovation and Influence.
           </div>
           <div className="mt-10 text-2xl flex-wrap justify-center md:justify-start hidden md:flex">
-            <div className="mx-2 bg-gray-700 text-white px-10 py-2 rounded-lg hover:bg-white hover:text-black duration-75 cursor-pointer mt-2">
+            <Link
+              to="/"
+              className="mx-2 bg-gray-700 text-white px-10 py-2 rounded-lg hover:bg-white hover:text-black duration-75 cursor-pointer mt-2"
+            >
               TEAM
-            </div>
-            <div className="mx-2 bg-gray-700 text-white px-10 py-2 rounded-lg hover:bg-white hover:text-black duration-75 cursor-pointer mt-2">
+            </Link>
+            <a
+              href="https://www.facebook.com/sxc.computerclub"
+              className="mx-2 bg-gray-700 text-white px-10 py-2 rounded-lg hover:bg-white hover:text-black duration-75 cursor-pointer mt-2"
+              target="_blank"
+              rel="noreferrer"
+            >
               CONTACT
-            </div>
+            </a>
             <Link
               to="/houses"
               className="mx-2 bg-gray-700 text-white px-10 py-2 rounded-lg hover:bg-white hover:text-black duration-75 cursor-pointer mt-2"

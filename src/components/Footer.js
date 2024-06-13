@@ -42,6 +42,7 @@ export default function Footer() {
       <img
         src="/logo/sx3c logo black.svg"
         className="-translate-y-4 hidden lg:block"
+        alt="sx3c logo black"
       />
     </div>
   );

@@ -109,7 +109,7 @@ const executives = [
 
 export default function Executives() {
   return (
-    <div>
+    <div id="executive-team">
       <div className="font-bold text-4xl lg:text-6xl text-center mt-32">
         The Executive Team
       </div>
