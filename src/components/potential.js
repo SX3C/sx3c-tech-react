@@ -22,7 +22,7 @@ export default function Potential() {
       data-aos-once="true"
       className="flex justify-center mt-20"
     >
-      <div className="h-96 w-[80vw] radial-background rounded-lg my-20 text-center flex flex-col justify-center">
+      <div className="h-96 w-[80vw] 2xl:w-[95rem] radial-background rounded-lg my-20 text-center flex flex-col justify-center">
         <div className="text-3xl font-bold mx-2">
           Where Potential finds Ignition
         </div>

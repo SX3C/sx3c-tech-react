@@ -113,7 +113,7 @@ export default function Executives() {
       <div className="font-bold text-4xl lg:text-6xl text-center mt-32">
         The Executive Team
       </div>
-      <div className="mx-auto w-[80vw] mt-20 grid grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3 gap-5">
+      <div className="mx-auto w-[80vw] 2xl:w-[90rem] mt-20 grid grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3 gap-5">
         {executives.map((executive, index) => (
           <div index={index}>
             <ExecutiveSingle executive={executive} />
