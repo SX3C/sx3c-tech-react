@@ -18,7 +18,9 @@ export default function Houses() {
         >
           <div className="relative">
             <img
-              className="w-[50%] rounded-full mb-10 absolute top-[25%] left-0 z-10"
+              data-aos="fade-up"
+              data-aos-once="true"
+              className="w-[7rem] rounded-full mb-10 absolute top-[50%] right-[50%] bottom-0 z-10"
               alt="house illustration"
               src="/houses/game-development.png"
             />
@@ -33,7 +35,9 @@ export default function Houses() {
           </div>
           <div className="relative">
             <img
-              className="w-[50%] rounded-full mb-10 absolute top-[25%] left-0 z-10"
+              data-aos="fade-up"
+              data-aos-once="true"
+              className="w-[7rem] rounded-full mb-10 absolute top-[50%] right-[50%] bottom-0 z-10"
               alt="house illustration"
               src="/houses/data-sci.png"
             />
@@ -48,7 +52,9 @@ export default function Houses() {
           </div>
           <div className="relative">
             <img
-              className="w-[50%] rounded-full mb-10 absolute top-[25%] left-0 z-10"
+              data-aos="fade-up"
+              data-aos-once="true"
+              className="w-[7rem] rounded-full mb-10 absolute top-[50%] right-[50%] bottom-0 z-10"
               alt="house illustration"
               src="/houses/video-editing.png"
             />
@@ -63,7 +69,9 @@ export default function Houses() {
           </div>
           <div className="relative">
             <img
-              className="w-[50%] rounded-full mb-10 absolute top-[25%] left-0 z-10"
+              data-aos="fade-up"
+              data-aos-once="true"
+              className="w-[7rem] rounded-full mb-10 absolute top-[50%] right-[50%] bottom-0 z-10"
               alt="house illustration"
               src="/houses/web-dev.png"
             />

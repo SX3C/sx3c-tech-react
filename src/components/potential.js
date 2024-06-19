@@ -23,7 +23,9 @@ export default function Potential() {
       className="flex justify-center mt-20"
     >
       <div className="h-96 w-[80vw] radial-background rounded-lg my-20 text-center flex flex-col justify-center">
-        <div className="text-3xl font-bold">Where Potential finds Ignition</div>
+        <div className="text-3xl font-bold mx-2">
+          Where Potential finds Ignition
+        </div>
         <div className="mt-4">
           <div className="px-4">
             With houses that support various fields of computers science and

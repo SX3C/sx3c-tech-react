@@ -7,13 +7,13 @@ export default function Header() {
       <div className="flex justify-between w-[80vw] m-auto items-center 2xl:items-start flex-col-reverse 2xl:h-96 2xl:flex-row">
         <div>
           <Link to="/">
-            <div className="flex items-center justify-center 2xl:justify-start">
+            <div className="flex items-center justify-center 2xl:justify-start mb-2">
               <img
-                src="/logo/sx3c logo circular.svg"
+                src="/logo/logo-text.png"
                 alt="logo"
-                className="h-28 w-28"
+                className="h-14 w-14 rounded-full mr-4"
               />
-              <div className="text-xl sm:text-3xl font-bold">
+              <div className="text-2xl sm:text-3xl font-bold">
                 Computer Club @SXC
               </div>
             </div>
@@ -47,7 +47,7 @@ export default function Header() {
         <img
           src="/logo/sx3c logo.svg"
           alt="logo"
-          className="h-[90%] -translate-y-5"
+          className="h-[90%] trnaslate-y-0 2xl:-translate-y-14"
         />
       </div>
     </>

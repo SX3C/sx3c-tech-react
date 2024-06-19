@@ -10,7 +10,7 @@ export default function ExecutiveSingle({ executive }) {
 
   return (
     <div
-      className="flex flex-col items-center relative"
+      className="flex flex-col items-center relative w-full"
       data-aos="fade-up"
       data-aos-once="true"
     >
@@ -20,7 +20,7 @@ export default function ExecutiveSingle({ executive }) {
         error={<div style={{ background: "#eee" }} />}
         style={{ width: "24rem", height: "24rem" }}
         alt={executive.name}
-        className="w-96 h-96 rounded-full"
+        className="rounded-full"
       />
       <h1 className="text-xl md:text-2xl lg:text-3xl xl:text-4xl mt-2 font-bold text-center">
         {executive.name}
