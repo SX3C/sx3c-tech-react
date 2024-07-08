@@ -33,7 +33,7 @@ export default function EventsSection() {
                   <div className="order-1 w-3/12 md:w-5/12" />
                   <div className="order-1 w-7/12 md:w-5/12 px-1 py-4 text-left md:text-right">
                     <p className="mb-3 text-base text-yellow-300">
-                      31 Aug & Sept 1, 2024
+                      7th-8th September 2024
                     </p>
                     <h4 className="mb-3 font-bold text-lg md:text-2xl">
                       Science Fest
@@ -50,9 +50,6 @@ export default function EventsSection() {
                 <div className="mb-8 flex justify-start md:justify-between items-center w-full right-timeline">
                   <div className="order-1 w-3/12 md:w-5/12" />
                   <div className="order-1 w-7/12 md:w-5/12 px-1 py-4 text-left">
-                    <p className="mb-3 text-base text-yellow-300">
-                      1-30 Oct, 2024
-                    </p>
                     <h4 className="mb-3 font-bold text-lg md:text-2xl">
                       Hacktoberfest Challenges
                     </h4>
@@ -65,9 +62,6 @@ export default function EventsSection() {
                 <div className="mb-8 flex justify-start md:justify-between flex-row  md:flex-row-reverse items-center w-full left-timeline">
                   <div className="order-1 w-3/12 md:w-5/12" />
                   <div className="order-1 w-7/12 md:w-5/12 px-1 py-4 text-left md:text-right">
-                    <p className="mb-3 text-base text-yellow-300">
-                      16 Nov 2024
-                    </p>
                     <h4 className="mb-3 font-bold text-lg md:text-2xl">
                       Tech Day
                     </h4>
@@ -80,9 +74,6 @@ export default function EventsSection() {
                 <div className="mb-8 flex justify-start md:justify-between items-center w-full right-timeline">
                   <div className="order-1 w-3/12 md:w-5/12" />
                   <div className="order-1 w-7/12 md:w-5/12 px-1 py-4 text-left">
-                    <p className="mb-3 text-base text-yellow-300">
-                      13 Feb, 2025
-                    </p>
                     <h4 className="mb-3 font-bold text-lg md:text-2xl">
                       SX3C Skill Showcase
                     </h4>
@@ -95,9 +86,6 @@ export default function EventsSection() {
                 <div className="mb-8 flex justify-start md:justify-between flex-row  md:flex-row-reverse items-center w-full left-timeline">
                   <div className="order-1 w-3/12 md:w-5/12" />
                   <div className="order-1 w-7/12 md:w-5/12 px-1 py-4 text-left md:text-right">
-                    <p className="mb-3 text-base text-yellow-300">
-                      17 Jan 2025
-                    </p>
                     <h4 className="mb-3 font-bold text-lg md:text-2xl">
                       Code Hiking
                     </h4>
@@ -110,9 +98,6 @@ export default function EventsSection() {
                 <div className="mb-8 flex justify-start md:justify-between items-center w-full right-timeline">
                   <div className="order-1 w-3/12 md:w-5/12" />
                   <div className="order-1 w-7/12 md:w-5/12 px-1 py-4 text-left">
-                    <p className="mb-3 text-base text-yellow-300">
-                      9-15 Sept 2024
-                    </p>
                     <h4 className="mb-3 font-bold text-lg md:text-2xl">
                       T-Shirt Design Competition
                     </h4>
